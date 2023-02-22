@@ -1,0 +1,227 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.listSearch{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+.lsTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.lsItem label{
+    font-size: 12px;
+}
+.lsItem input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    width: 50px;
+}
+
+.lsItem span{
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.lsOptions{
+    padding: 10px;
+}
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.listSearch button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.listResult{
+    flex: 3;
+}
+.siDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+.siRating{
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .siRating>span{
+    font-weight: 500;
+  }
+  .siRating>button{
+   background-color: #003580;
+   color: white;
+   padding: 5px;
+   font-weight: bold;
+   border: none;
+  }
+  
+  
+  .sideDetailText{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .siPrice{
+    font-size: 24px;
+  }
+  
+  .siTaxOp{
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .siCheckButton{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  @media screen and (max-width : 768px) {
+    .listContainer{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  .listWrapper{
+      width: 90%;
+      max-width: 1024px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+  .listSearch{
+      border-radius: 0;
+      position: static;
+      top: 10px;
+  }
+  .lsTitle{
+      font-size: 20px;
+      color: #555;
+      margin-bottom: 10px;
+  }
+  .lsItem{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 10px;
+  }
+  .lsItem label{
+      font-size: 18px;
+  }
+  .lsItem input{
+    
+      width: 100px;
+      text-align: center;
+  }
+  
+
+  .lsOptions{
+      padding: 10px;
+  }
+.lsOptionText{
+  font-size: 20px;
+}
+  .listSearch button{
+      padding: 10px;
+      background-color: #0071c2;
+      color: #fff;
+      border: none;
+      width: 100%;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  
+  .listResult{
+      flex: 3;
+  }
+  .siDetails {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between
+    }
+  .siRating{
+      display: flex;
+      justify-content: space-between
+    }
+    
+    .siRating>span{
+      font-weight: 500;
+    }
+    .siRating>button{
+     background-color: #003580;
+     color: white;
+     padding: 5px;
+     font-weight: bold;
+     border: none;
+    }
+    
+    
+    .sideDetailText{
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    .siPrice{
+      font-size: 24px;
+    }
+    
+    .siTaxOp{
+      font-size: 12px;
+      color: gray;
+    }
+    
+    .siCheckButton{
+      background-color: #0071c2;
+      color: white;
+      font-weight: bold;
+      padding: 10px 5px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
